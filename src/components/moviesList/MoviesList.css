@@ -1,0 +1,51 @@
+.movieList-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.movies-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.pageNumber-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 41, 74);
+    color: rgb(227, 202, 175);
+}
+
+.selector-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 41, 74);
+    color: rgb(227, 202, 175);
+}
+
+.selector-container ul {
+    display: flex;
+    align-items: center;
+}
+
+
+
+#page-numbers {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-numbers > li {
+    margin-right: 0.3em;
+    color: rgb(227, 202, 175);
+    user-select: none;
+    cursor: pointer;
+}
