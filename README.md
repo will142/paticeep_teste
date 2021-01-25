@@ -1,4 +1,4 @@
-Project realized for particeep techniq test.
+Project realized for particeep technical test.
 First time using redux.
 
 
